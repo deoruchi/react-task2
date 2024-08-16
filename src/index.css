@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#bg-1 {
+  background-image: url("./src/assets/Backgrounds/Random_User.png");
+  width: 100%;
+}
