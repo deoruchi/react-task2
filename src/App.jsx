@@ -10,9 +10,9 @@ export const App = () => {
           Task Assignment Solutions
         </h2>
         <div className="m-5">
-          <Button path="/randomuser" text="Random User Profile" />
-          <Button path="/randomtweets" text="Random Jokes tweet" />
-          <Button path="/catlists" text="Cats listing" />
+          <Button path="/random-user" text="Random User Profile" />
+          <Button path="/random-jokes" text="Random Jokes tweet" />
+          <Button path="/cats-listing" text="Cats listing" />
         </div>
       </section>
     </div>

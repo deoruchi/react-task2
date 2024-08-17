@@ -17,7 +17,7 @@ export const Random_tweets = () => {
     const response = await axios.get(
       "https://api.freeapi.app/api/v1/public/randomjokes/joke/random"
     );
-    console.log(response.data.data.content);
+    console.log(response.data);
     getData(response.data.data.content);
   }
   useEffect(() => {

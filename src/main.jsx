@@ -17,9 +17,9 @@ const router = createHashRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element=<App /> />
-      <Route path="/randomuser" element=<Random_user /> />
-      <Route path="/randomtweets" element=<Random_tweets /> />
-      <Route path="/catlists" element=<Cats /> />
+      <Route path="/random-user" element=<Random_user /> />
+      <Route path="/random-jokes" element=<Random_tweets /> />
+      <Route path="/cats-listing" element=<Cats /> />
     </>
   )
 );
