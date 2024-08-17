@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Chai from "../assets/icons/Chai.png";
+import { Link } from "react-router-dom";
 import { CatCard } from "../assets/utils/CatCard";
 export const Cats = () => {
   const [list, setList] = useState([]);
@@ -29,6 +31,12 @@ export const Cats = () => {
           >
             Refresh
           </button>
+          <Link to="http://chaicode.com">
+            <img
+              src={Chai}
+              className=" absolute w-16 top-5 right-6 rounded-lg"
+            />
+          </Link>
         </div>
 
         <br></br>
