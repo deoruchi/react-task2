@@ -11,7 +11,7 @@ export const App = () => {
         </h2>
         <div className="m-5">
           <Button path="/randomuser" text="Random User Profile" />
-          <Button text="Random Jokes tweet" />
+          <Button path="/randomtweets" text="Random Jokes tweet" />
           <Button text="Cats listing" />
         </div>
       </section>

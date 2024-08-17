@@ -5,3 +5,10 @@
   background-image: url("./src/assets/Backgrounds/Random_User.png");
   width: 100%;
 }
+#bg-2 {
+  background-image: url("./src/assets/Backgrounds/Random Jokes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}

@@ -51,7 +51,7 @@ export const Random_user = () => {
   if (loading) {
     return <h1>Data loading</h1>;
   }
-  if (detail === undefined) {
+  if (!detail) {
     return <h1>No user details available</h1>; // Handle case where details are not yet loaded
   } else {
     return (
