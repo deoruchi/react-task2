@@ -32,7 +32,7 @@ export const Cats = () => {
         </div>
 
         <br></br>
-        <section className="columns scroll">
+        <section className="columns ">
           {list.map((item) => {
             return (
               <CatCard
