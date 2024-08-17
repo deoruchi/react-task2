@@ -11,6 +11,7 @@ import {
 import { App } from "./App";
 import { Random_user } from "./Component/Random_user";
 import { Random_tweets } from "./Component/Random_tweets";
+import { Cats } from "./Component/Cats.jsx";
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createHashRouter(
       <Route path="/" element=<App /> />
       <Route path="/randomuser" element=<Random_user /> />
       <Route path="/randomtweets" element=<Random_tweets /> />
+      <Route path="/catlists" element=<Cats /> />
     </>
   )
 );

@@ -12,7 +12,7 @@ export const App = () => {
         <div className="m-5">
           <Button path="/randomuser" text="Random User Profile" />
           <Button path="/randomtweets" text="Random Jokes tweet" />
-          <Button text="Cats listing" />
+          <Button path="/catlists" text="Cats listing" />
         </div>
       </section>
     </div>

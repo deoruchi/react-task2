@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { IconText } from "../assets/utils/IconText";
+import Chai from "../assets/icons/Chai.png";
 import BackArrowW from "../assets/icons/BackArrowW.png";
 import Elon from "../assets/icons/Elon.png";
 import Verifed from "../assets/icons/Verifed.png";
@@ -9,6 +10,7 @@ import Repost from "../assets/icons/Repost.png";
 import Like from "../assets/icons/Like.png";
 import BookMark from "../assets/icons/BookMark.png";
 import Upload from "../assets/icons/Upload.png";
+import { Link } from "react-router-dom";
 export const Random_tweets = () => {
   const [data, getData] = useState();
   async function refresh() {
@@ -67,6 +69,12 @@ export const Random_tweets = () => {
             <p className="text-center text-gray-400 my-3">© chai aur code</p>
           </div>
         </section>
+        <Link to="http://chaicode.com">
+          <img
+            src={Chai}
+            className=" absolute w-20 bottom-5 right-6 rounded-lg"
+          />
+        </Link>
       </article>
     </>
   );
